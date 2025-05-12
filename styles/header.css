@@ -52,11 +52,6 @@
     font-weight: bold;
 }
 
-.ig-link img {
-    width: 20px;
-    height: 20px;
-}
-
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -68,10 +63,5 @@
     .logo {
         margin-bottom: 1rem;
         font-size: 1.4rem;
-    }
-
-    .ig-link {
-        align-self: flex-end;
-        margin-top: 1rem;
     }
 }  
