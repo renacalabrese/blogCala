@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - CALA</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/Favicon - Estrella.png" type="image/png">
+
+    <!--TIPOGRAFIA-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <!--STYLES-->
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/articulos/articulos.css">
+    <link rel="stylesheet" href="styles/contact.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">CALA</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#articulos">ARTÍCULOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+            <a href="https://instagram.com/renacala" target="_blank" class="ig-link" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" stroke="#495144" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+        </nav>
+    </header>
+    
+    <section id="inicio" class="intro">
+        <div class="intro-contenedor">
+            <img src="img/Foto Rena - Blog.png" alt="Renata" class="intro-img">
+            <div class="intro-texto">
+                <h2>Un rincón para compartir <br> lo que me gusta</h2>
+                <p>Un blog para compartir lo que me gusta.<br>
+                Café, viajes, diseño y las cosas que me hacen ser yo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="dibujo-grid">
+        <img src="img/imgSection/hockeyDibujo.png" alt="Dibujo 1">
+        <img src="img/imgSection/fuerzaCafe.png" alt="Dibujo 2">
+        <img src="img/imgSection/frontendDibujo.png" alt="Dibujo 3">
+        <img src="img/imgSection/F1dibujo.png" alt="Dibujo 4">
+        <img src="img/imgSection/aurisDibujo.png" alt="Dibujo 5">
+    </section>
+
+    <section id="articulos" class="articulos">
+        <div class="articulos-header">
+            <h2 class="titulo-articulos" style="color:#5c6c5e;">Artículos</h2>
+            <p>Un blog para compartir lo que me gusta.</p>
+        </div>
+        <div class="articulos-cards">
+            <a href="/pages/cafe.html" class="card" style="background-image: url('img/cafe/coffeePortada.jpg');">
+                <div class="overlay"></div>
+                <span class="numero">01</span>
+                <div class="texto">
+                    <h3>El café siempre estuvo en casa</h3>
+                    <p>De los granos de mi papá a mi idea de crear algo propio.</p>
+                </div>
+            </a>
+            
+            <a href="/pages/playlist.html" class="card" style="background-image: url('img/playlists/musicPortada.jpg');">
+                <div class="overlay"></div>
+                <span class="numero">02</span>
+                <div class="texto">
+                    <h3>El caos tiene ritmo</h3>
+                    <p>Canciones que no combinan, pero me hacen sentir todo.</p>
+                </div>
+            </a>
+
+            <a href="/pages/formula1.html" class="card" style="background-image: url('img/formula1/f1.jpg');">
+                <div class="overlay"></div>
+                <span class="numero">03</span>
+                <div class="texto">
+                    <h3>Velocidad que conecta</h3>
+                    <p>Motores, adrenalina y la tradición de siempre.</p>
+                </div>
+            </a>
+
+            <a href="/pages/hockey.html" class="card" style="background-image: url('img/hockey/hockeyPortada.jpg');">
+                <div class="overlay"></div>
+                <span class="numero">04</span>
+                <div class="texto">
+                    <h3>Mi lugar favorito</h3>
+                    <p>Ahí donde las horas se pasan volando y todo tiene sentido.</p>
+                </div>
+            </a>
+
+            <a href="/pages/programacion.html" class="card" style="background-image: url('img/programacion/programacionPortada.jpg');">
+                <div class="overlay"></div>
+                <span class="numero">05</span>
+                <div class="texto">
+                    <h3>Ideas que toman forma</h3>
+                    <p>Entre líneas de código y diseños, encontré una forma de expresarme.</p>
+                </div>
+            </a>
+        </div>
+            
+    </section>
+
+    <section id="contacto" class="contacto-section">
+        <div class="contacto-box">
+            <div class="contacto-contenedor">
+                <div class="info-contacto">
+                <h2>Hablemos</h2>
+                <ul>
+                    <li>📧 rena.calabrese@gmail.com</li>
+                    <li>💼 www.linkedin.com/in/renatacalabrese</li>
+                    <li>🌐 renacala.com</li>
+                    <li>🏙️ Buenos Aires, Argentina</li>
+                </ul>
+                </div>
+        
+                <form class="formulario-contacto">
+                    <div class="form-doble">
+                        <div>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div>
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" name="apellido" required>
+                        </div>
+                    </div>
+            
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>      
+    
+
+    <footer>
+        <div class="footer-texto">
+            <p>© 2025 CALA.</p>
+            <p>Diseñado por Renata.</p>
+        </div>  
+    </footer>
+
+    <script>
+        const navLinks = document.querySelectorAll('.nav a');
+    
+        // Intersección
+        const observer = new IntersectionObserver(
+            entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.id;
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href') === `#${id}`) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            },
+            {
+                threshold: 0.6 // Se activa cuando el 60% de la sección es visible
+            }
+        );
+    
+        // Secciones a observar
+        document.querySelectorAll('section[id]').forEach(section => {
+            observer.observe(section);
+        });
+    
+        // Al hacer clic, guarda el scroll en localStorage por si querés mantenerlo (opcional)
+        navLinks.forEach(link => {
+            link.addEventListener('click', function () {
+                navLinks.forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>  
+
+</body>
+</html>
