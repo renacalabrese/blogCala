@@ -124,6 +124,10 @@
         width: 100%;
     }
 
+    .formulario-contacto {
+        min-width: 0; /* 🔧 Este fix elimina el desborde */
+    }
+    
     .info-contacto h2 {
         font-size: 2rem;
         text-align: center;
