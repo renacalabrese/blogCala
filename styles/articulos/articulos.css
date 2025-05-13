@@ -1,14 +1,14 @@
 .articulos {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
     padding: 4rem 2rem;
+    text-align: center;
 }
 
 .articulos-header {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .titulo-articulos {
@@ -31,12 +31,14 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .card {
     position: relative;
     width: 290px;
-    flex: none;
+    flex: 1 1 auto;
     height: 210px;
     border-radius: 20px;
     overflow: hidden;
@@ -165,18 +167,25 @@ a.card:active {
 
 /* ESCRITORIO (≥1024px) */
 @media (min-width: 1024px) {
+    .articulos-cards {
+        max-width: 920px; /* para limitar el ancho total */
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .card {
+        flex: 0 0 calc(33.33% - 1.5rem); /* 3 por fila, con espacio */
+        max-width: 290px;
+        width: 290px;
+        height: 210px;
+        padding: 1.5rem;
+    }
     .articulos {
         padding: 4rem 2rem;
     }
 
     .titulo-articulos {
         font-size: 2.4rem;
-    }
-
-    .card {
-        width: 290px;
-        height: 210px;
-        padding: 1.5rem;
     }
 
     .texto {
