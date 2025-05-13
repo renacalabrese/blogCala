@@ -136,11 +136,11 @@
 
     .formulario-contacto input,
     .formulario-contacto textarea {
-        width: 100%;
+        width: 80%;
     }
 
     .formulario-contacto button {
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
 
