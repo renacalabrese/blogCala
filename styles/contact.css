@@ -95,6 +95,19 @@
     transform: scale(1.05);
 }
 
+#estado-mensaje {
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+#estado-mensaje.ok {
+    color: #388e3c; /* Verde */
+}
+
+#estado-mensaje.error {
+    color: #d32f2f; /* Rojo */
+}
+
 @media (max-width: 767px) {
     .contacto-contenedor {
         flex-direction: column;
@@ -112,11 +125,11 @@
     }
 
     .formulario-contacto {
-        width: 50%;
+        width: 100%;
     }
 
     .formulario-contacto button {
-        width: 50%;
+        width: 100%;
         text-align: center;
     }
 
