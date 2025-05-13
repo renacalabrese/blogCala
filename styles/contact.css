@@ -125,7 +125,7 @@
     }
 
     .formulario-contacto {
-        min-width: 0; /* 🔧 Este fix elimina el desborde */
+        min-width: 0; /*Este fix elimina el desborde */
     }
     
     .info-contacto h2 {
