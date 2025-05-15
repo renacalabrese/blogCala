@@ -145,4 +145,47 @@
     .intro-texto p {
         font-size: 1.1rem;
     }
-}  
+}
+
+/*media para tablets*/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro {
+        margin: 9rem auto 2rem;
+        padding: 2rem;
+        width: 90%;
+    }
+
+    .intro-contenedor {
+        gap: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .intro-img {
+        width: 260px;
+    }
+
+    .intro-texto {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .intro-texto h2 {
+        font-size: 2.5rem;
+    }
+
+    .intro-texto p {
+        font-size: 1.05rem;
+    }
+
+    .dibujo-grid {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .dibujo-grid img {
+        width: 90px;
+        height: 90px;
+        padding: 6px;
+    }
+}

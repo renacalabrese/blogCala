@@ -222,3 +222,55 @@ body {
     font-size: 1.05rem;
   }
 }
+
+/* TABLETS (768px a 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      padding: 4rem 1.5rem;
+    }
+
+    .titulo-principal {
+      font-size: 2.4rem;
+      text-align: center;
+    }
+
+    .bajada {
+      font-size: 1.05rem;
+      text-align: center;
+      max-width: 90%;
+      margin: 0 auto 2rem;
+    }
+
+    .columna.doble,
+    .articulo-lateral {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .imagen-lateral img,
+    .articulo-lateral img {
+      width: 60%;
+      height: auto;
+      margin-top: 1rem;
+    }
+
+    .imagen-lateral {
+      margin-top: 1rem;
+    }
+
+    .texto-lateral h2,
+    .destacado h2 {
+      font-size: 1.3rem;
+    }
+
+    .texto-lateral p,
+    .texto p,
+    .destacado p {
+      font-size: 1.05rem;
+    }
+
+    .columna img {
+      border-radius: 12px;
+    }
+}

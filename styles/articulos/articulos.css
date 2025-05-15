@@ -198,3 +198,42 @@ a.card:active {
         transform: translateY(0);
     }
 }
+
+/* TABLETS (768px a 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .articulos {
+        padding: 3rem 1.5rem;
+    }
+
+    .titulo-articulos {
+        font-size: 2rem;
+    }
+
+    .articulos-header p {
+        font-size: 1rem;
+    }
+
+    .articulos-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .card {
+        width: calc(50% - 1rem); /* 2 por fila */
+        max-width: 320px;
+        height: 210px;
+        padding: 1.2rem;
+    }
+
+    .texto {
+        opacity: 1;
+        transform: translateY(0);
+        text-align: left;
+    }
+
+    .numero {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.6rem;
+    }
+}
