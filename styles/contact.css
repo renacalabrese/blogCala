@@ -153,4 +153,11 @@
     .form-doble > div {
         width: 100%;
     }
+
+    .contacto-box {
+        width: calc(100vw - 2rem);
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
