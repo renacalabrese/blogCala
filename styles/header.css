@@ -65,3 +65,24 @@
         font-size: 1.4rem;
     }
 }  
+
+/*media para tablets*/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        padding: 0 1.5rem;
+        height: 80px;
+    }
+
+    .logo {
+        font-size: 1.3rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+
+    .nav ul {
+        gap: 1.2rem;
+    }
+}

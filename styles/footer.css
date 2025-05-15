@@ -41,3 +41,18 @@ footer a:hover {
         margin-top: 1rem;
     }
 }
+
+/* media para tablets*/
+@media (min-width: 768px) and (max-width: 1023px) {
+    footer {
+        padding: 2rem 2rem;
+        font-size: 0.88rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ig-link {
+        align-self: center;
+        margin-top: 1rem;
+    }
+}
